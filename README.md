@@ -1,3 +1,5 @@
+![A badger detective typing a refund letter in a rainy noir office](cover.jpeg)
+
 # 💸 Refund Prompt
 
 A single, self-contained prompt that turns Claude, ChatGPT, or any other capable AI into your personal refund assistant. Paste it, attach your receipt, answer a couple of questions — and get a letter built to get approved, plus a ready-made escalation plan in case it isn't. If you have no real case, it tells you so honestly instead of bluffing.
