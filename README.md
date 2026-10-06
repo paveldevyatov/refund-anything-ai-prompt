@@ -1,4 +1,4 @@
-![A badger detective typing a refund letter in a rainy noir office](cover.jpeg)
+![Refund emails next to a pixel badger detective holding a letter at a company door](cover.jpeg)
 
 # 💸 Refund Prompt
 
