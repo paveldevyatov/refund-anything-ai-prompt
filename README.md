@@ -2,6 +2,10 @@
 
 # 💸 Refund Prompt
 
+<!-- yarkr:badges:start -->
+[![Indexed on Yarkr](https://api.yarkr.com/functions/v1/api/api/v1/badges/repos/paveldevyatov/refund-anything-ai-prompt/version.svg)](https://yarkr.com/arks/paveldevyatov/refund-anything-ai-prompt)
+<!-- yarkr:badges:end -->
+
 A single, self-contained prompt that turns Claude, ChatGPT, or any other capable AI into your personal refund assistant. Paste it, attach your receipt, answer a couple of questions — and get a letter built to get approved, plus a ready-made escalation plan in case it isn't. If you have no real case, it tells you so honestly instead of bluffing.
 
 No lawyer, no templates to fill in. 🙌
@@ -54,3 +58,35 @@ This is not legal advice. The AI can get facts or statutes wrong, and laws chang
 ## 📄 License
 
 [MIT](LICENSE)
+
+<!-- yarkr:install:start -->
+## Install with Yarkr
+
+This repo is indexed on [Yarkr](https://yarkr.com/arks/paveldevyatov/refund-anything-ai-prompt) as the ark [paveldevyatov/refund-anything-ai-prompt](https://yarkr.com/arks/paveldevyatov/refund-anything-ai-prompt), so its skills install into Claude Code, Codex, Cursor and other agent harnesses with one command.
+
+### CLI
+
+Install the whole ark, which Yarkr keeps equal to this repo:
+
+```bash
+npx yarkr-cli sync paveldevyatov/refund-anything-ai-prompt
+```
+
+Or add individual skills:
+
+```bash
+npx yarkr-cli add skill:paveldevyatov/refund-anything-ai-prompt/get-refund
+```
+
+No Node.js? `curl -fsSL https://yarkr.com/install.sh | sh` (macOS, Linux) or `irm https://yarkr.com/install.ps1 | iex` (Windows PowerShell) installs `yarkr` as a standalone binary; then type `yarkr` in place of `npx yarkr-cli`.
+
+### MCP
+
+Connect your agent to the ark over MCP:
+
+```bash
+npx yarkr-cli mcp add paveldevyatov/refund-anything-ai-prompt
+```
+
+Or point any MCP client at `https://api.yarkr.com/functions/v1/api/mcp/o/paveldevyatov/refund-anything-ai-prompt`.
+<!-- yarkr:install:end -->
